@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+export DH_VERBOSE := 1
+export DEB_BUILD_OPTIONS := nocheck
+export DH_GOPKG := github.com/syndtr/gocapability
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+

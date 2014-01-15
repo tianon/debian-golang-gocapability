@@ -1,0 +1,2 @@
+git clone git://github.com/syndtr/gocapability golang-gocapability-dev
+tar czvf golang-gocapability-dev_0.0~git20130208.orig.tar.gz golang-gocapability-dev --exclude=.git
