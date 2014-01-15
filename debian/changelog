@@ -1,0 +1,5 @@
+golang-gocapability-dev (0.0~git20130208-1) unstable; urgency=low
+
+  * Initial release (Closes: #735407)
+
+ -- Johan Euphrosine <proppy@google.com>  Wed, 15 Jan 2014 00:17:34 -0800
