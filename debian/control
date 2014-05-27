@@ -1,4 +1,4 @@
-Source: golang-gocapability-dev
+Source: golang-gocapability
 Section: devel
 Priority: extra
 Maintainer: Johan Euphrosine <proppy@google.com>

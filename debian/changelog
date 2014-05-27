@@ -1,4 +1,11 @@
-golang-gocapability-dev (0.0~git20130208-1) unstable; urgency=low
+golang-gocapability (0.0~git20140516-1) unstable; urgency=low
+
+  * New upstream version (0.0~git20140516).
+  * Rename source package to golang-gocapability.
+
+ -- Johan Euphrosine <proppy@google.com>  Tue, 27 May 2014 16:17:07 -0700
+
+golang-gocapability (0.0~git20130208-1) unstable; urgency=low
 
   * Initial release (Closes: #735407)
 
