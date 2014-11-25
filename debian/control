@@ -5,6 +5,8 @@ Maintainer: Johan Euphrosine <proppy@google.com>
 Build-Depends: debhelper (>= 9), dh-golang, golang
 Standards-Version: 3.9.5
 Homepage: https://github.com/syndtr/gocapability
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-gocapability-dev.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-gocapability-dev.git
 
 Package: golang-gocapability-dev
 Architecture: all
