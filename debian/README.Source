@@ -1,4 +1,17 @@
-git clone git://github.com/syndtr/gocapability golang-gocapability-dev
-(cd golang-gocapability-dev && git checkout 3c85049eaeb429febe7788d9c7aac42322a377fe)
-tar czvf golang-gocapability-dev_0.0~git20140516.orig.tar.gz golang-gocapability-dev --exclude=.git
+This package was debianized as part of the Docker in Debian work. It's been
+packaged in line with the policy that paultag set, so any questions or concerns
+about this (or other packages like it) can be sent to him. If there's an issue,
+of course, please feel free to fix the packaging.
 
+# generate orig tarball
+./debian/helpers/generate-tarball.sh ..
+# see ../golang-gocapability-dev_0.0~gitXXXXXXXX.orig.tar.gz
+
+# update "upstream" branch
+./debian/helpers/update-upstream-branch.sh
+
+# create new "upstream/..." tag
+./debian/helpers/create-upstream-tag.sh upstream # to package latest
+# or ./debian/helpers/create-upstream-tag.sh <upstream-commit>
+./debian/helpers/create-upstream-tag.sh 8e4cdcb
+# version number for debian/changelog will be printed
