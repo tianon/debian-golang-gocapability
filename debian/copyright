@@ -28,7 +28,8 @@ License: BSD-2-clause
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: debian/*
-Copyright: 2013 Johan Euphrosine <proppy@google.com>
+Copyright: 2013-2014 Johan Euphrosine <proppy@google.com>,
+ 2015 Tianon Gravi <admwiggin@gmail.com>
 License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are
