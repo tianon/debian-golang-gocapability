@@ -1,6 +1,7 @@
 golang-gocapability-dev (0.0~git20150323.181905.1.8e4cdcb-1~exp1) UNRELEASED; urgency=medium
 
   * New upstream version (0.0~git20150323.181905.1.8e4cdcb).
+  * Bump Standards-Version to 3.9.6.
 
  -- Tianon Gravi <admwiggin@gmail.com>  Wed, 01 Apr 2015 03:31:55 +0000
 
