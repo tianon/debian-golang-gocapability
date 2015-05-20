@@ -1,9 +1,9 @@
-golang-gocapability-dev (0.0~git20150506.1.66ef2aa-1) UNRELEASED; urgency=medium
+golang-gocapability-dev (0.0~git20150506.1.66ef2aa-1) unstable; urgency=medium
 
   * Team upload.
   * New upstream version (0.0~git20150506.1.66ef2aa).
 
- -- Tianon Gravi <admwiggin@gmail.com>  Wed, 20 May 2015 08:45:24 +0000
+ -- Tianon Gravi <admwiggin@gmail.com>  Wed, 20 May 2015 02:58:32 -0600
 
 golang-gocapability-dev (0.0~git20150323.1.8e4cdcb-1) unstable; urgency=medium
 
