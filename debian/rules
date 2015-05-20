@@ -7,4 +7,7 @@ export DH_GOPKG := github.com/syndtr/gocapability
 %:
 	dh $@ --buildsystem=golang --with=golang
 
-
+override_dh_auto_install:
+	dh_auto_install
+	# the "enumgen" binary is useless outside of gocapability upstream development
+	rm -r debian/golang-gocapability-dev/usr/bin
